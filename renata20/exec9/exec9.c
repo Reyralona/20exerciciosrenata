@@ -6,6 +6,8 @@
 
 int main () {
 
+    // Memo fuzue do outro programa, só que ao contrário.
+
     float cota, dolares, reais;
 
     printf("Quanto esta valendo o dolar em reais? >> \n");

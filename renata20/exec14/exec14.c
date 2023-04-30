@@ -6,13 +6,21 @@
 
 int main () {
 
+
+    // variáveis do tipo inteira chamadas base e expoente
     int base, expoente;
+    // variável do tipo inteiro chamada resultado inicializada em 1.
     int resultado = 1;
 
     printf("Insira base e expoente separados por espaco >> \n");
     scanf("%d%d", &base, &expoente);
 
+    // Exemplo: 2³
+    // De 1 até expoente+1 (4) (O que nos fará ir de 1 até 3, pois 3 < 4)
     for (int i = 1; i < expoente+1; i++){
+        // O resultado é a multiplicação da base pelo número de vezes do expoente.
+        // 2³ == 2 * 2 * 2.
+        // Ou seja, a base multiplicada por ela mesma três vezes.
         resultado *= base;
     }
 

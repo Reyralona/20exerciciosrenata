@@ -8,9 +8,14 @@
 
 int main () {
 
+    // Variável REAL chamada sum inicializada em 1.
     float sum = 1;
 
+    // De 1 até 65 ...
     for (int i = 1; i < 65; i ++){
+        // O numero possível de grãos cresce exponencialmente, portanto, a cada 
+        // loop, o valor de sum cresce ele mesmo dobrado. (sum * 2).
+        // Isso nos dará a quantidade de grãos em cada um dos quadros.
         printf("E possivel ter no quadro %d: %.2f graos\n", i, sum);
         sum *= 2;
     }

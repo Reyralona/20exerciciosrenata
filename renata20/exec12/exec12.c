@@ -7,15 +7,24 @@
 
 int main () {
 
+    // Primeiro uso do DO -> WHILE.
+
+    // Variável inteira chamada i inicializada em 1.
     int i = 1;
 
+    // Faça...
     do {
+
+        // Se o resto da divisão de i (1) por 4 for igual a 0, printe o seu valor.
         if (i % 4 == 0){
             printf("%d\n", i);
         }
 
+        // Aumente o valor de i em 1
         i++;
     }
+
+    // ... Enquanto i for menor do que 200.
     while (i < 200);
 
 
