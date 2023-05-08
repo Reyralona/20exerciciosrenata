@@ -10,6 +10,8 @@ int main () {
     int vetorB[20];
 
     int count = 0;
+
+    // Apenas conta o vetor A de trás pra frente, salvando cada valor no índice correto do vetor B.
     for (int i = 19; i > -1; i--){
         vetorB[count] = vetorA[i];
         count++;
